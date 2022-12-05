@@ -1,0 +1,100 @@
+* {
+  box-sizing: border-box;
+}
+body {
+    font-size: 18px;
+    padding: 1rem;
+    font-family: Gilroy, sans-serif;
+    background-color: #111125;
+    min-height: 100vh;
+    color: #333;
+    max-width: 600px;
+    margin-inline: auto;    
+}
+header {
+    box-shadow: 0 0.25rem #22222233;
+    width: 100%;
+}
+h1 {
+  font-size: 1.25rem;
+  margin: 0.5rem;
+}
+p { margin: 0 }
+#app {
+    margin-block: 2rem;
+    min-height: fit-content;
+    min-width: 80%;
+    background-color: #28Fcff5f;
+    border-radius: 3px;
+    border: 1px solid #024;
+    outline: 1px solid #82ffff3f;
+    box-shadow: inset 0 -6px 20px 15px #11114033, inset 0 0rem 1rem 0.125rem #a4a41103;
+}
+.wrapper-title {
+    min-height: 2rem;
+    border-radius: 3px;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    border: 1px solid #024;
+    outline: 1px solid #8888884f;
+    background-color: #ff00ff25;
+    color: bisque;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 4px;
+    font-size: 1.25rem;
+    box-shadow: inset 0 -6px 20px 15px #11114033, inset 0 0rem 1rem 0.125rem #a4a41103;
+}
+.create-todo,
+.wrapper-todolist {
+    padding: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 1rem;
+    min-height: fit-content;
+}
+input {
+    width: 85%;
+    padding: 0.4rem;
+    font-size: 1.25rem;
+    color: bisque;
+    font-weight: bold;
+    background-color: #001122aa;
+    border: black 2px solid;
+    border: 1px solid #024;
+    outline: 1px solid #244;
+    box-shadow: 0 0 1px 2px #000;
+    margin: 0;
+}
+input::placeholder {
+    color: #fff;
+}
+
+.todo-item {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.todo-item-text {
+    margin: 0;
+    padding: 0.5rem;
+    width: 85%;
+    min-height: 2.5rem;
+    background-color: #ffcc88aa;
+    border: #ffaa2233 2px solid;
+    box-shadow: 0 0 1px 2px #ffaa2233;
+}
+button {
+    margin: 0;
+    padding: 0rem;
+    font-size: 2rem;
+    color: #fff;
+    background-color: #001122aa;
+    border: black 2px solid;
+    border: 1px solid #024;
+    outline: 1px solid #244;
+    box-shadow: 0 0 1px 2px #000;
+    cursor: pointer;
+}
